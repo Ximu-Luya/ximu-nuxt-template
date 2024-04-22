@@ -19,24 +19,15 @@ export default defineNuxtConfig({
     }
   },
   components: [
-    // {
-    //   path: '~/components/common',
-    //   pathPrefix: false
-    // },
-    // {
-    //   path: '~/components/docs',
-    //   pathPrefix: false
-    // },
     {
       path: '~/components',
       pathPrefix: false
     }
   ],
   alias: {},
-  css: ['@unocss/reset/tailwind.css'],
   app: {
     head: {
-      title: '雷索纳斯市场',
+      title: '西木Nuxt模板项目',
       viewport: 'width=device-width,initial-scale=1,viewport-fit=cover',
       htmlAttrs: {
         lang: 'zh-CN'
@@ -69,4 +60,4 @@ export default defineNuxtConfig({
       }
     }
   }
-});
+})

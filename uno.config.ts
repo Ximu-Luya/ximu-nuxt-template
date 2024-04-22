@@ -7,7 +7,7 @@ import {
   presetTypography,
   transformerDirectives,
   transformerVariantGroup
-} from 'unocss';
+} from 'unocss'
 
 export default defineConfig({
   content: {
@@ -38,7 +38,7 @@ export default defineConfig({
           weights: ['1', '300', '400', '500', '600', '700']
         }
       }
-    }),
+    })
   ],
   transformers: [transformerDirectives(), transformerVariantGroup()],
   shortcuts: {
@@ -52,7 +52,8 @@ export default defineConfig({
     'text-base-600': 'text-neutral-600 dark:text-light-600',
     'text-base-700': 'text-neutral-700 dark:text-light-700',
     'text-base-800': 'text-neutral-800 dark:text-light-800',
-    'text-base-900': 'text-neutral-900 dark:text-light-900'
+    'text-base-900': 'text-neutral-900 dark:text-light-900',
+    'h-w-center': 'flex items-center justify-center'
   },
   theme: {
     colors: {
@@ -68,4 +69,4 @@ export default defineConfig({
       'main-900': '#171717'
     }
   }
-});
+})
